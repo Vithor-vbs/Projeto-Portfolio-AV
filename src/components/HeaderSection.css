@@ -1,0 +1,31 @@
+.header-section{
+    margin-bottom: 5rem;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 20%;
+   
+}
+
+.header-main-name{
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+.header-properties-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.properties-name{
+    font-size: 1.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffff;
+}
