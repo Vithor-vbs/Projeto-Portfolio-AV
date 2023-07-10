@@ -1,7 +1,6 @@
-import React from 'react';
 import './DescriptionSection.css';
 
-export const DescriptionSection = () => {
+export function DescriptionSection () {
 
     return (
         <section className="description-section">

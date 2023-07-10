@@ -1,7 +1,6 @@
-import React from "react";
 import "./HeaderSection.css";
 
-const HeaderSection = () => {
+export function HeaderSection() {
 
     return (
         <section className="header-section">
@@ -16,7 +15,4 @@ const HeaderSection = () => {
             </div>
         </section>
     )
-
 };
-
-export default HeaderSection;

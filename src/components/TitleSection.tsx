@@ -1,7 +1,6 @@
-import React from 'react';
 import './TitleSection.css';
 
-function TitleSection() {
+export function TitleSection() {
 
     return (
         <section className="title-section">
@@ -12,7 +11,3 @@ function TitleSection() {
         </section>
     )
 }
-
-export default TitleSection;
-
-
