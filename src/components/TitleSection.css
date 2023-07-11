@@ -19,8 +19,10 @@
 .title-first-line{
     margin-right: 10rem;
     height: 10rem;
+    color: #131313;
+    -webkit-text-stroke: 2px #fff;
 }
 
 .title-sec-line{
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
