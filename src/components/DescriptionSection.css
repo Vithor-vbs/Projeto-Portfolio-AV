@@ -1,12 +1,13 @@
-.description-section{
-    margin-top: 5rem;
-    margin-left: 20rem;
+.description-section {
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
 }
 
-.description-section-title{
-    font-size: 1.5rem;
-    white-space: nowrap;
-    font-weight: 500;
-    text-decoration: none;
-    color: #ffff;
+.description-section-title {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffff;
 }
