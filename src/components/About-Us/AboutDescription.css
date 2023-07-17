@@ -1,0 +1,19 @@
+.about-description {
+  max-width: 30rem;
+  position: relative;
+  margin-top: 9rem;
+  margin-bottom: 10rem;
+}
+.about-description:after {
+  content: "";
+  position: absolute;
+  background-color: #444;
+  top: -5.5rem;
+  right: 12rem;
+  width: 55rem;
+  height: 1px;
+}
+
+.about-description-title {
+  font-size: 1.5rem;
+}
