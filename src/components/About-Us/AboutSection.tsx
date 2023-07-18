@@ -1,4 +1,3 @@
-import React from "react";
 import "./AboutSection.css";
 import { AboutDescription } from "./AboutDescription";
 import { ButtonCTA } from "./ButtonCTA";
