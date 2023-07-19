@@ -5,13 +5,23 @@
 
   color-scheme: light dark;
   color: #ffffff;
-  background-color: #131313;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9269084342721463) 51%,
+    rgba(30, 29, 29, 1) 100%
+  );
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* background: radial-gradient(circle, #8b8b8e 10%, transparent 11%);
+  background-size: 2em 2em;
+  background-color: #131313;
+  opacity: 0.8; */
 }
 html {
   font-size: 62.5%;
@@ -21,4 +31,4 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}   
+}

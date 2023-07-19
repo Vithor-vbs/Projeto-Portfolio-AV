@@ -1,12 +1,11 @@
-import './DescriptionSection.css';
+import "./DescriptionSection.css";
 
-export function DescriptionSection () {
-
-    return (
-        <section className="description-section">
-            <p className="description-section-title">we create solutions</p>
-            <p className="description-section-title">that move forward</p>
-            <p className="description-section-title">in digital universe.</p>
-        </section>
-    )
+export function DescriptionSection() {
+  return (
+    <section className="description-section">
+      <p className="description-section-title">nós criamos soluções</p>
+      <p className="description-section-title">que movem o mundo</p>
+      <p className="description-section-title"> digital.</p>
+    </section>
+  );
 }
