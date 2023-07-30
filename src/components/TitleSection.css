@@ -5,7 +5,7 @@
 }
 
 .title-container {
-  font-size: 10rem;
+  font-size: 9rem;
   font-weight: 600;
 
   display: flex;
@@ -13,7 +13,11 @@
 
   letter-spacing: -4px;
 
-  margin-left: 10rem;
+  margin-left: 25rem;
+}
+
+.title-description-box {
+  margin-right: 30rem;
 }
 
 .title-first-line {
@@ -21,10 +25,13 @@
   height: 12rem;
   color: #131313;
   -webkit-text-stroke: 2px #fff;
+
+  white-space: nowrap;
 }
 
 .title-sec-line {
   margin-left: 12rem;
+  white-space: nowrap;
 }
 
 @keyframes glow {

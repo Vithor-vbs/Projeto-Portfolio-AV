@@ -1,0 +1,32 @@
+.about-us-section {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+
+.about-us-box {
+  font-size: 6rem;
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+
+  letter-spacing: -3px;
+
+  margin-right: 15rem;
+}
+
+.about-us-box p:first-child {
+  margin-right: 7rem;
+}
+
+.about-us-box p:nth-child(2) {
+  margin-left: 10rem;
+}
+
+.about-us-box p span {
+  text-decoration: underline #2e46a5;
+}

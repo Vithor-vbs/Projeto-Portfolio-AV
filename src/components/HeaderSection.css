@@ -10,8 +10,10 @@
 }
 
 .header-main-image {
-  width: 45%;
-  height: 15%;
+  height: 4rem;
+}
+.home-redirect {
+  display: block;
 }
 
 .header-properties-box {
@@ -42,5 +44,9 @@
 }
 
 .properties-name:hover:after {
+  width: 100%;
+}
+
+.pageIndex-modified:after {
   width: 100%;
 }
