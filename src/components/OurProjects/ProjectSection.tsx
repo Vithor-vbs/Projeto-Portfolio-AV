@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectSection.css";
 
 export function ProjectSection() {

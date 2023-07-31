@@ -1,4 +1,3 @@
-import react from "react";
 import styles from "./HeaderAboutUs.module.css";
 import { motion } from "framer-motion";
 
