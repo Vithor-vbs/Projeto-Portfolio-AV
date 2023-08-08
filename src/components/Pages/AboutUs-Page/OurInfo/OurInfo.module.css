@@ -1,0 +1,28 @@
+.ourInfo-section {
+  display: flex;
+  justify-content: right;
+}
+
+.info-container {
+  width: 100rem;
+  margin-bottom: 4rem;
+}
+
+.info-number {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #2e46a5;
+  margin-bottom: 1rem;
+}
+.info-number-side {
+  display: flex;
+  justify-content: right;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+.text-aligner {
+  text-align: right;
+}

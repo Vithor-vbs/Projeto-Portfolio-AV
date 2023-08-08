@@ -1,12 +1,28 @@
-export default function OurInfo() {
+import styles from "./OurInfo.module.css";
+interface InfoData {
+  title: string;
+  text: string;
+}
+
+export default function OurInfo({ title, text }: InfoData) {
   return (
-    <div>
-      <p>
-        <span>1.</span>
-        Somos uma equipe multidiciplinar, focada em transformar ideias em
-        realidade no digital. Nossa experiência em desenvolvimento web e
-        marketing nos permite levar sua marca ao próximo nível.
-      </p>
-    </div>
+    <section className={title === "2" ? styles["ourInfo-section"] : ""}>
+      <div className={styles["info-container"]}>
+        <p
+          className={`${styles["text-box"]} ${
+            title === "2" ? styles["text-aligner"] : ""
+          }`}
+        >
+          <span
+            className={`${styles["info-number"]} ${
+              title === "2" ? styles["info-number-side"] : ""
+            }`}
+          >
+            {title}.
+          </span>
+          {text}
+        </p>
+      </div>
+    </section>
   );
 }

@@ -1,4 +1,10 @@
 .who-are-we-section {
   font-size: 2rem;
-  margin-left: 4rem;
+  margin: 0 10rem;
+}
+
+.who-are-we-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
 }

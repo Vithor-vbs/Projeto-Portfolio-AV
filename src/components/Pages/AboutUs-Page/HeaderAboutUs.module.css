@@ -8,6 +8,7 @@
 }
 
 .about-us-box {
+  z-index: 2;
   font-size: 6rem;
   font-weight: 600;
 
@@ -29,4 +30,30 @@
 
 .about-us-box p span {
   text-decoration: underline #2e46a5;
+}
+
+.glowing-ball {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  z-index: -1;
+  box-shadow: 0 0 1000px rgba(182, 182, 185, 0.5); /* Adjust the color and opacity */
+  background-color: rgb(34, 33, 33);
+  opacity: 0; /* Initial opacity */
+  animation: appear 1s ease-in-out forwards; /* Animation to gradually appear */
+  position: absolute;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5); /* Initial scale */
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Final scale */
+  }
 }

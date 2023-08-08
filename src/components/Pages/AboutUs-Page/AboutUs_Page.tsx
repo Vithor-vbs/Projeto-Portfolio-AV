@@ -2,7 +2,6 @@ import { HeaderSection } from "../../HeaderSection";
 import styles from "./AboutUs_Page.module.css";
 import { HeaderAboutUs } from "./HeaderAboutUs";
 import { WhoAreWeSection } from "./OurInfo/WhoAreWeSection";
-
 import { motion } from "framer-motion";
 
 export function AboutUs_Page() {
